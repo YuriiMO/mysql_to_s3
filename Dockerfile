@@ -1,2 +1,4 @@
 FROM archlinux:latest
-RUN  pacman -Sy restic mariadb-clients
+RUN  pacman -Sy \
+  && pacman -Sy restic \
+  && pacman -Sy mariadb-clients

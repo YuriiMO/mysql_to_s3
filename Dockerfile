@@ -1,3 +1,3 @@
 FROM fedora:31
-RUN  dnf install restic mysql
+RUN  dnf -y install restic mysql
 

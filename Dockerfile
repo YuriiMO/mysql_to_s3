@@ -4,4 +4,4 @@ RUN yum install -y mysql \
  && yum copr -y enable copart/restic \
  && yum install -y restic
 ENV SHELL "/bin/bash"
-RUN env
+ENTRYPOINT [ "sh" ]

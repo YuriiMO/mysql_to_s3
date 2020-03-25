@@ -1,2 +1,2 @@
 FROM archlinux:latest
-RUN  pacman -S restic mysql
+RUN  pacman -Sy restic mariadb-clients

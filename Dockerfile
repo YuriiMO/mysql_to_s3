@@ -1,2 +1,2 @@
 FROM archlinux:latest
-RUN  ypacman -S restic mysql
+RUN  pacman -S restic mysql
